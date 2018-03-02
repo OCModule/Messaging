@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Messaging_Example' do
+  pod 'Messaging', :path => '../'
+
+  target 'Messaging_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
