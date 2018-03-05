@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'Messaging_Example' do
   pod 'Messaging', :path => '../'
+  pod 'libffi-core'
+  pod 'fishhook'
 
   target 'Messaging_Tests' do
     inherit! :search_paths

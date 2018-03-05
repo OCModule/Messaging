@@ -1,0 +1,22 @@
+{
+  "name": "Messaging",
+  "version": "0.1.0",
+  "summary": "A short description of Messaging.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangchengqvan@gmail.com/Messaging",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangchengqvan@gmail.com": "chengquan.wang@ele.me"
+  },
+  "source": {
+    "git": "https://github.com/wangchengqvan@gmail.com/Messaging.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Messaging/Classes/**/*"
+}

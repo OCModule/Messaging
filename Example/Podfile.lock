@@ -1,0 +1,22 @@
+PODS:
+  - fishhook (0.2)
+  - libffi-core (1.2.0)
+  - Messaging (0.1.0)
+
+DEPENDENCIES:
+  - fishhook
+  - libffi-core
+  - Messaging (from `../`)
+
+EXTERNAL SOURCES:
+  Messaging:
+    :path: ../
+
+SPEC CHECKSUMS:
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  libffi-core: c4049ed88381fee5c0a31d26c860fc427d3c301c
+  Messaging: 53a0a31e4f9f3133dc39c9dbef3f5fc6b997e9e3
+
+PODFILE CHECKSUM: d67667c4659f1551775636dad04c1bccb240e327
+
+COCOAPODS: 1.4.0
