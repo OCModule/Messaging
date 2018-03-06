@@ -9,6 +9,7 @@
 @import UIKit;
 #import "MSAppDelegate.h"
 #import "fishhook.h"
+#import "MSLibffi.h"
 
 static int (*original_strlen)(const char *__s);
 
@@ -26,7 +27,9 @@ int main(int argc, char * argv[])
     rebind_symbols((struct rebinding[1]){strlen_rebinding}, 1);
     long result = strlen(str);
     printf("result == :%ld\n",result);
-        
+    
+        /* ------------ libffi --------------- */
+        [MSLibffi new];
     return UIApplicationMain(argc, argv, nil, NSStringFromClass([MSAppDelegate class]));
     }
 }
